@@ -517,6 +517,8 @@ For hardcoded users, you can use the built-in command:
 
     $ php bin/console security:encode-password
 
+The option [<user-class>] must be a string type otherwise as shown console -help don't work.
+
 It will give you something like this:
 
 .. configuration-block::
